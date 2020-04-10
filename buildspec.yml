@@ -20,7 +20,8 @@ phases:
   build:
     commands:
       - dockerterraform="docker run --rm -w /app  -v $PWD:/app -v $PWD/.aws:/root/.aws -v $PWD/.ssh:/root/.ssh -e PROJ_NAME=$PROJ_NAME $terraformImage"
-      - $dockerterraform init 
+      - $dockerterraform init
+      - git status
       - branch="`git rev-parse --abbrev-ref HEAD`"
       - echo "branch selecionada " $branch
       - $dockerterraform workspace select $branch || $dockerterraform workspace new $branch
