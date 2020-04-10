@@ -20,7 +20,7 @@ Log Pipeline Homol
 
 
 instancias Pipeline Homol  
-![](instanciasPipelineHomol.png)
+![](InstanciaPipelineHomol.png)
 
 
 Load Balancer Homol   
@@ -28,4 +28,4 @@ Load Balancer Homol
 
 
 security Group Homol  
-![](securityGroupHomol.png)
+![](SecurityGroupsHomol.png)
