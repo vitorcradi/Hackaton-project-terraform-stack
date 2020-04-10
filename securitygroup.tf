@@ -1,6 +1,6 @@
 resource "aws_security_group" "allow-ssh" {
   vpc_id      = "${data.aws_vpc.vpc.id}"
-  name        = "allow-ssh-desafio2"
+  name        = "allow-ssh-desafio2_homol"
 
   egress {
     from_port   = 0
