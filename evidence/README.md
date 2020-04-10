@@ -1,22 +1,31 @@
 # Evidencias
 
-Nesta pasta constam as fotos com evidencias do exercicio  
+Nesta pasta constam as fotos com evidencias do exercicio 2    
 
-Remote State  
-![](remoteState.png)
+### Develop + Homol
+ECR  
+![](EcrHomolDevelop.png)
 
-
-ELB  
-![](ELB.png)
-
-
-Security Groups  
-![](securityGroups.png)
+Workspaces Homol Develop  
+![](WorkspacesHomolDevelop.png)
 
 
-Instances com o nome do workspace  
-![](instances.png)
+### Pipeline Homol
+Resultado Pipeline Homol 
+![](ResultadoPipelineHomol.png)
 
 
-Estrutura da pasta e ambientes Prod e Dev  
-![](dirTreeAndEnvs.png)
+Log Pipeline Homol 
+![](LogPipelineHomol.png)
+
+
+instancias Pipeline Homol  
+![](instanciasPipelineHomol.png)
+
+
+Load Balancer Homol   
+![](LoadBalancerHomol.png)
+
+
+security Group Homol  
+![](securityGroupHomol.png)
